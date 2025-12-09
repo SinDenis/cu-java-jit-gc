@@ -199,8 +199,6 @@ open profiling_results/profile_cpu_*.html
 - Workflow оптимизации приложений
 - Сравнение с JFR и VisualVM
 
-📋 **[CLAUDE.md](CLAUDE.md)** - Информация о структуре проекта для Claude Code
-
 🚀 **[QUICK_REFERENCE.md](docs/QUICK_REFERENCE.md)** - Быстрая справка команд
 
 ## Структура проекта
@@ -447,13 +445,3 @@ java -Xint \
 - [async-profiler](https://github.com/async-profiler/async-profiler) - Low-overhead Java profiler
 - [Flame Graphs](http://www.brendangregg.com/flamegraphs.html) - Visualization technique
 - [JDK Mission Control](https://www.oracle.com/java/technologies/javase/products-jmc8-downloads.html) - JFR analyzer
-
----
-
-**Совет для начала:**
-- **JIT**: Начните с [docs/jit/JIT_OPTIMIZATION_GUIDE.md](docs/jit/JIT_OPTIMIZATION_GUIDE.md)
-- **GC Leaks**: Начните с [docs/gc/GC_MEMORY_LEAK_GUIDE.md](docs/gc/GC_MEMORY_LEAK_GUIDE.md)
-- **GC Choice**: Начните с [docs/gc/GC_COMPARISON_GUIDE.md](docs/gc/GC_COMPARISON_GUIDE.md)
-- **Profiling**: Начните с [docs/profiling/ASYNC_PROFILER_GUIDE.md](docs/profiling/ASYNC_PROFILER_GUIDE.md)
-
-🎯 Удачи в изучении внутренностей JVM!
