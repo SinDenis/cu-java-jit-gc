@@ -1,0 +1,1 @@
+rootProject.name = "cu-java-jit-gc"
